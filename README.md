@@ -36,8 +36,8 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
     + In other words, admittedly I'm still a rookie here.
     + I ended up moving on from my tests, as I was running out of time and energy to push.  :(
 2. Refactor:
-  + Functions do one thing.
-  + Abstract out GET request to a model or factory.
+    + Functions do one thing.
+    + Abstract out GET request to a model or factory.
 3. Minimize JS and CSS for prod.
 4. Remember how to set up Grunt and/or Gulp.
 5. Remember a quicker way to set up an Angular app from scratch (kind of forgot).
@@ -46,7 +46,18 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
 8. Have the 3 min. timer on repo searches done on the backend (if I were creating the BE).
 
 # Structure:
-
+app/                    --> all of the source files for the application
+  app.css               --> default stylesheet
+  components/           --> native Angular Stuff
+  view/                --> the view template and logic
+    view.html            --> the partial template
+    view.js              --> the controller logic
+    view_test.js         --> tests of the controller
+  app.js                --> main application module
+  index.html            --> app layout file (the main html template file of the app)
+karma.conf.js         --> config file for running unit tests with Karma
+e2e-tests/            --> end-to-end tests that don't work yet.
+ 
 [angularjs]: https://angularjs.org/
 [bower]: http://bower.io/
 [git]: https://git-scm.com/
