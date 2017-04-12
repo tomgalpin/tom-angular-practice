@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-sm-3 user-head">
+        <h4>{{userName}}:</h4>
+        <img src={{userAvatar}}/>
+    </div>
+    <div class="col-sm-9 user-repos">
+        <h4>Repos:</h4>
+        <div class="columns">
+            <div class="repo" ng-repeat="repo in userRepos track by $index">
+                <p class="italic">
+                    <span class="italic repo-name">{{repo.repoName}}</span>
+                    <span>  --  </span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span>{{repo.repoStars}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
