@@ -17,29 +17,10 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
 
 # Notes:
 - Angular structure was adopted from: [angular-seed][angular-seed]
-- Run locally with:
-```
-npm install
-
-```
-bower install
-
-and
-
-```
-npm start
-
+- Run locally with: 'npm install', 'bower install' and 'npm start'
 (to start local server) on: [`localhost:8000/index.html`][local-app-url]
-- Run Unit Tests locally with:
-
-```
-npm test
-
-- Run End-to-End tests locally with:
-
-```
-npm run update-webdriver
-
+- Run Unit Tests locally with: 'npm test'
+- Run End-to-End tests locally with: 'npm run update-webdriver'
 - Tests are run in Chrome, Safari, and Firefox.
 - Deployed at:
 - Some users to test with:
@@ -66,8 +47,6 @@ npm run update-webdriver
 
 # Structure:
 
-
-# Links:
 [angularjs]: https://angularjs.org/
 [bower]: http://bower.io/
 [git]: https://git-scm.com/
