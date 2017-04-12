@@ -20,20 +20,23 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
 - Run locally with:
 ```
 npm install
-,
+
 ```
 bower install
-,
+
 and
+
 ```
 npm start
 
 (to start local server) on: [`localhost:8000/index.html`][local-app-url]
 - Run Unit Tests locally with:
+
 ```
 npm test
 
 - Run End-to-End tests locally with:
+
 ```
 npm run update-webdriver
 
