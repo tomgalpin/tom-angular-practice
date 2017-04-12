@@ -46,6 +46,7 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
 8. Have the 3 min. timer on repo searches done on the backend (if I were creating the BE).
 
 # Structure:
+```
 app/                    --> all of the source files for the application
   app.css               --> default stylesheet
   components/           --> native Angular Stuff
@@ -57,7 +58,8 @@ app/                    --> all of the source files for the application
   index.html            --> app layout file (the main html template file of the app)
 karma.conf.js         --> config file for running unit tests with Karma
 e2e-tests/            --> end-to-end tests that don't work yet.
- 
+```
+
 [angularjs]: https://angularjs.org/
 [bower]: http://bower.io/
 [git]: https://git-scm.com/
