@@ -19,13 +19,20 @@ This is a practice [AngularJS][angularjs] (version "1.5.11") application.
 - Angular structure was adopted from: [angular-seed][angular-seed]
 - Run locally with:
 ```
-npm install```,
-```bower install```,
+npm install
+```,
+```
+bower install
+```,
 and
-```npm start```
+```
+npm start
+```
 (to start local server) on: [`localhost:8000/index.html`][local-app-url]
 - Run Unit Tests locally with:
-```npm test```
+```
+npm test
+```
 - Run End-to-End tests locally with:
 ```
 npm run update-webdriver
@@ -39,7 +46,7 @@ npm run update-webdriver
         -- 'a;ldkfja;lsdkfj;alsdfkj':  404,
         -- 'jerod':  actually returns as a 200, but without any content; so I called this a failure and invalid account.
 
-- Areas of improvement:
+# Areas of improvement:
 1. Better tests (always)
     + Still learning to regularly encorporate tests/have a long way to improve.
     + In other words, admittedly I'm still a rookie here.
