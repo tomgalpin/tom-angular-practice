@@ -30,7 +30,6 @@ angular.module('myApp.view', ['ngRoute'])
     };
 
     var successCallback = function(data){
-        console.log(33, data);
         if (data.data.length) {
             $scope.errorMessage = null;
             $scope.userName     = getUserInfo(data.data).userName;
